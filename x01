@@ -143,11 +143,11 @@ proxies:
     headers:
       Host: square-snowflake-486a.beshir-beisel.workers.dev
     path: /
-- name: 加拿大 058
-  type: vless
-  server: 104.17.148.22
-  port: 8080
-  uuid: 08bca69b-7dc9-460d-b149-0f4cb88a3971
+- name: xray
+  type: vmess
+  server: 74.120.169.103
+  port: 19714
+  uuid: d53581a4-5a0a-4ef1-84e1-2397771bf324
   skip-cert-verify: true
   tls: true
   udp: true
