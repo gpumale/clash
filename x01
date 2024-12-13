@@ -129,20 +129,6 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: 加拿大 004
-  type: vmess
-  network: ws
-  server: 104.16.68.38
-  port: 8080
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /
 - name: 加拿大 138
   type: vmess
   network: ws
