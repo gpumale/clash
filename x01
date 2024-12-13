@@ -143,15 +143,6 @@ proxies:
     headers:
       Host: square-snowflake-486a.beshir-beisel.workers.dev
     path: /
-- name: xray
-  type: vmess
-  server: 74.120.169.103
-  port: 19714
-  uuid: d53581a4-5a0a-4ef1-84e1-2397771bf324
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
 - name: 加拿大 138
   type: vmess
   network: ws
